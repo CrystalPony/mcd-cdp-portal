@@ -3,6 +3,7 @@ import { StateInspector } from 'reinspect';
 import LanguageProvider from 'providers/LanguageProvider';
 import styled, { ThemeProvider } from 'styled-components';
 import { Router, NotFoundBoundary } from 'react-navi';
+import { createHashHistory } from 'history';
 import { createBrowserNavigation } from 'navi';
 import { hot } from 'react-hot-loader/root';
 import { GenericNotFound } from 'pages/NotFound';
@@ -19,7 +20,9 @@ const Body = styled.div`
   min-height: 100vh;
 `;
 
+const history = createHashHistory();
 const navigation = createBrowserNavigation({
+  history,
   routes
 });
 

@@ -284,42 +284,42 @@ const MarketingLayout = ({ showNavInFooter, children }) => {
           <link
             rel="preload"
             as="font"
-            href="/fonts/FTBase-Regular.woff2"
+            href="./fonts/FTBase-Regular.woff2"
             type="font/woff2"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
             as="font"
-            href="/fonts/FTBase-Regular.woff"
+            href="./fonts/FTBase-Regular.woff"
             type="font/woff"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
             as="font"
-            href="/fonts/FTBase-Medium.woff2"
+            href="./fonts/FTBase-Medium.woff2"
             type="font/woff2"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
             as="font"
-            href="/fonts/FTBase-Medium.woff"
+            href="./fonts/FTBase-Medium.woff"
             type="font/woff"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
             as="font"
-            href="/fonts/FTBase-Bold.woff2"
+            href="./fonts/FTBase-Bold.woff2"
             type="font/woff2"
             crossOrigin="anonymous"
           />
           <link
             rel="preload"
             as="font"
-            href="/fonts/FTBase-Bold.woff"
+            href="./fonts/FTBase-Bold.woff"
             type="font/woff"
             crossOrigin="anonymous"
           />

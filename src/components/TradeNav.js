@@ -14,7 +14,7 @@ const StyledTradeIcon = styled(TradeIcon)`
 const TradeNav = ({ ...props }) => {
   const { lang } = useLanguage();
   return (
-    <Link href={`/${Routes.TRADE}`}>
+    <Link href={`https://oasis.app/${Routes.TRADE}`}>
       <Flex
         flexDirection="column"
         alignItems="center"
